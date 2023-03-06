@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "buddha-site"
+version = "1.0.0"
+description = "Audio book collection of the Understanding Buddhism series"
+authors = ["Kelvin Ng <hoishing@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
