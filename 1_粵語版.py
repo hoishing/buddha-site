@@ -1,14 +1,13 @@
 from data import zh
 from utils import sidebar, content, config
 
-title = "認識佛教"
 
-config(title)
+config(zh=True)
 
 sidebar(zh)
 
-f"""
-### {title}
+"""
+### 認識佛教
 ###### 粵語有聲書
 ---
 """

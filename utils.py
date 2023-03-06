@@ -31,7 +31,9 @@ def content(src: TOC) -> None:
             st.write("---")
 
 
-def config(title: str) -> None:
+def config(zh: bool) -> None:
+    title = "認識佛教" if zh else "认识佛教"
+    desc = "歡迎複製流通" if zh else "欢迎复制流通"
     st.set_page_config(
         page_title=title,
         page_icon="🙏",
@@ -40,6 +42,6 @@ def config(title: str) -> None:
         menu_items={
             "Get help": "https://github.com/hoishing/buddha-site",
             "Report a bug": "https://github.com/hoishing/buddha-site/issues",
-            "About": f"#### {title} \n 歡迎複製流通",
+            "About": f"#### {title} \n {desc}",
         },
     )

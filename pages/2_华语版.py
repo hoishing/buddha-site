@@ -1,16 +1,13 @@
-import streamlit as st
 from data import cn
 from utils import sidebar, content, config
 
 
-title = "认识佛教"
-
-config(title)
+config(zh=False)
 
 sidebar(cn)
 
 f"""
-### {title}
+### 认识佛教
 ###### 华语有声书
 ---
 """
