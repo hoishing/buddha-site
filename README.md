@@ -9,7 +9,7 @@ This site is the successor of iOS app [認識佛教][buddha-ios]. All audio cont
 [black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg
 [black-url]: https://github.com/psf/black
 [streamlit-badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
-[streamlit-url]: https://understand-buddhism.streamlit.apps/
+[streamlit-url]: https://understand-buddhism.streamlit.app
 
 ## Technical Details
 
